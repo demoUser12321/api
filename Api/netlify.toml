@@ -1,0 +1,9 @@
+[build]
+  command = "python model.py"
+  functions = "functions/"
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "text/html; charset=utf-8"
